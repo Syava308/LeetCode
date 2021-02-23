@@ -7,18 +7,11 @@ import java.io.InputStreamReader;
 public class App {
     public static void main(String[] args) {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.print("Enter value/n");
-        String s = "";
-        try {
-            s = br.readLine();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        NumberOfOneBits numberOfOneBits = new NumberOfOneBits();
-        numberOfOneBits.Solution(Integer.parseInt(s));
+        String s = "abcdefgh";
 
-        System.out.println("HelloWorld!");
+        ZigzagConversion zz = new ZigzagConversion();
+        String result = zz.convert(s,4);
+        System.out.println(result);
     }
 }
 
