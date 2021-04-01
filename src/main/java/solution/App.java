@@ -6,10 +6,11 @@ import java.io.InputStreamReader;
 
 public class App {
     public static void main(String[] args) {
-        int x = 1534236469;
-        System.out.println(x);
-        RevertInteger revertInteger = new RevertInteger();
-        System.out.println(revertInteger.reverse(x));
+        System.out.println("LeetCode solution:");
+//        int x = 1534236469;
+//        System.out.println(x);
+//        RevertInteger revertInteger = new RevertInteger();
+//        System.out.println(revertInteger.reverse(x));
 //        String s = "abcdefgh";
 //        ZigzagConversion zz = new ZigzagConversion();
 //        String result = zz.convert(s,4);
